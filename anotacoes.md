@@ -21,7 +21,8 @@ O Moba será a interface para acesso ao meu sevidor de desenvolvimento.
 
 Para o primeiro acesso, utilizamos a senha: `alunos01`.
 Para alterar a senha, utilizamos o comando:
-
+>Meu ip: 192.168.10.90
+>Minha senha:123dani
 ```bash
 passwd
 ```
