@@ -85,3 +85,4 @@ A -->D[Realizar consultas]
 A -->E[Controla acessos]
 ```
 ---
+windos+shifit+s
