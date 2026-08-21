@@ -57,5 +57,30 @@ cidades{
     int população "população das cidades"
 }
 ```
-INSERT INTO cidades_ricas(nome,pais,populacao)
-VALUES('Nova York', 'Estados Unidos', '8200000');
+---
+### Explicação da atividade
+- primeiro eu entrei no moba e criei um banco de dados chamado de "cidades":
+![alt text](moba.png)
+
+-Depois eu faço:
+ cidades{
+    int id PK "Gerado Automaticamente"
+    varchar cidades "nome das cidades"
+    vachar país "nome dos países"
+    int populacao "população das cidades"
+}
+-E com isso eu faço a tabela;
+
+-Depois eu uso:
+CREATE TABLE produtos(
+     id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY NOT NULL,
+     nome VARCHAR(50) NOT NULL,
+     pais NUMERIC(10,2) NOT NULL,
+     populacao INT NOT NULL DEFAULT 0
+);
+-Que é para colocar quantas palavras para cada coisa;
+
+-Daí fiz:
+ INSERT INTO cidades_ricas(nome,pais,populacao)
+VALUES('Nova York','Estados Unidos','8200000');
+-Para poder colocar os assuntos na tabela;
